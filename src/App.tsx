@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import "./index.css";
-import { CitySearch } from "./features/weather/CitySearch";
-import { CurrentWeatherCard } from "./features/weather/CurrentWeather";
-import { Forecast } from "./features/weather/Forecast";
-import type { GeoResult, WeatherResponse } from "./features/weather/types";
-import { getWeather } from "./features/weather/api";
+import { CitySearch } from "./features/weather/CitySearch.tsx";
+import { CurrentWeatherCard } from "./features/weather/CurrentWeather.tsx";
+import { Forecast } from "./features/weather/Forecast.tsx";
+import type { GeoResult, WeatherResponse } from "./features/weather/types.ts";
+import { getWeather } from "./features/weather/api.ts";
 
 function App() {
   const [city, setCity] = useState<GeoResult | null>(null);

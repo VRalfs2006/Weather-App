@@ -1,5 +1,5 @@
-import type { CurrentWeather } from "./types";
-import { getWeatherDescription } from "./types";
+import type { CurrentWeather } from "./types.ts";
+import { getWeatherDescription } from "./types.ts";
 
 interface CurrentWeatherProps {
   weather: CurrentWeather;

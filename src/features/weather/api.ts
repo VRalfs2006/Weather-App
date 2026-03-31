@@ -1,5 +1,5 @@
 import axios from "axios";
-import type { GeoResponse, GeoResult, WeatherResponse } from "./types";
+import type { GeoResponse, GeoResult, WeatherResponse } from "./types.ts";
 
 const GEO_URL = "https://geocoding-api.open-meteo.com/v1/search";
 const FORECAST_URL = "https://api.open-meteo.com/v1/forecast";

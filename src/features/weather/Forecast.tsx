@@ -1,5 +1,5 @@
-import type { DailyForecast } from "./types";
-import { getWeatherDescription } from "./types";
+import type { DailyForecast } from "./types.ts";
+import { getWeatherDescription } from "./types.ts";
 
 interface ForecastProps {
   daily: DailyForecast;

@@ -1,6 +1,6 @@
 import { FormEvent, useState } from "react";
-import { searchCity } from "./api";
-import type { GeoResult } from "./types";
+import { searchCity } from "./api.ts";
+import type { GeoResult } from "./types.ts";
 
 interface CitySearchProps {
   onCityFound: (city: GeoResult) => void;
